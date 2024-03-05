@@ -1,0 +1,28 @@
+body {
+    background-color: darkslateblue;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 0%;
+}
+
+img {
+    height: 300px;
+}
+
+#juegos {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: auto;
+}
+
+.vertical {
+}
+
+.fotojuego {
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+}
