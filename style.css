@@ -1,10 +1,24 @@
 body {
-    background-color: darkslateblue;
+    margin: 0%;
+    background-color: rgb(34, 25, 41);
     text-align: center;
 }
 
+#barra_titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(57, 49, 63);
+    margin-top: 0%;
+    padding-top: 10px;
+}
+
 h1 {
-    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-bottom: 10px;
+    font-family: "Varela Round", sans-serif;
+    font-size: 60px;
+    color: white;
 }
 
 img {
@@ -15,6 +29,7 @@ img {
     display: flex;
     justify-content: space-evenly;
     width: 70%;
+    height: 760px;
     margin: auto;
 }
 
@@ -25,4 +40,25 @@ img {
     display: flex;
     flex-direction: column;
     margin: 60px;
+    background-color: white;
+    border-radius: 25%;
+}
+
+#abajo {
+    width: 98%;
+    display: flex;
+    justify-content: end;
+}
+
+#idiomas {
+    height: 50px;
+    font-size: xx-large;
+}
+
+button {
+    background-color: rgb(145, 0, 145);
+    height: 40px;
+    font-family: "Varela Round", sans-serif;
+    font-size: larger;
+    color: white;
 }
