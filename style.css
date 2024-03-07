@@ -33,9 +33,6 @@ img {
     margin: auto;
 }
 
-.vertical {
-}
-
 .fotojuego {
     display: flex;
     flex-direction: column;
@@ -61,4 +58,10 @@ button {
     font-family: "Varela Round", sans-serif;
     font-size: larger;
     color: white;
+}
+
+#idiomas {
+    color: white;
+    background-color: rgb(24, 20, 26);
+    border: 0;
 }
