@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icono.webp">
+    <title>Buscaminas</title>
+    <link rel="stylesheet" href="buscaminas.css">
+    <link href="https://fonts.cdnfonts.com/css/lcd" rel="stylesheet">
+    <script src="buscaminas.js"></script>
+</head>
+<body onload="main()">
+    <h1>BUSCAMINAS: FONSI EDITION</h1>
+
+    <div id="pagina">
+        <div id="izq" class="tercio">
+            <h2>Cómo jugar</h2>
+            <div id="lista">
+                    <p>Debes limpiar el tablero de todas las casillas que no sean minas.</p>
+                    <p>Si al clickar la casilla está en blanco, ni en esa casilla ni en ninguna colindante hay una mina.</p>
+                    <p>Si aparece una mina, se te restará una vida de tres disponibles.</p>
+                    <p>Si pierdes todas tus vidas, deberás volver a empezar.</p>
+            </div>
+        </div>
+
+        <div id="medio" class="tercio">
+            <div id="superior">
+                <p id="vidas">3</p>
+                <button id="reset" onclick="location.reload()">🙂</button>
+                <p id="tiempo">0</p>
+            </div>
+
+            <div id="panel"></div>
+        </div>
+
+        <div id="der" class="tercio">
+            <img src="img/spectrum.jpg" alt="Anuncio ZX Spectrum" style="height: 300px;">
+            <img src="img/commodore.jpg" alt="Anuncio Commodore 64" style="height: 300px;">
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(255, 215, 199);
+}
+
+h1 {
+    text-align: center;
+
+}
+
+#pagina {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mitad {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#centro button {
+    height: 150px;
+    background-color: rgb(87, 255, 87);
+    font-size: xx-large;
+    color: white;
+    border: solid 3px green;
+    border-radius: 100%;
+}
+
+#der button {
+    height: 200px;
+    width: 200px;
+    margin: 20ox;
+    border: solid 3px;
+    border-radius: 20px;
+}
+
+#superior {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#inferior {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#amarillo {
+    background-color: yellow;
+}
+
+#azul {
+    background-color: blue;
+}
+
+#rojo {
+    background-color: red;
+}
+
+#verde {
+    background-color: green;
+}
+
+#puntuacion {
+    text-align: center;
+    font-size: xx-large;
+}

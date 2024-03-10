@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simón dice</title>
+    <link rel="stylesheet" href="simon.css">
+    <script src="simon.js"></script>
+</head>
+<body>
+    <h1 id="titulo">SIMÓN DICE</h1>
+
+    <div id="pagina">
+        <div id="izq" class="mitad">
+            <img id="imagen" src="img/simon.png">
+        </div>
+
+        <div id="centro" class="mitad">
+            <button id="go" onclick="turnoCPU()">EMPEZAR</button>
+        </div>
+
+        <div id="der" class="mitad">
+            <div id="superior">
+                <button class="colores" id="verde" onclick="pulsarVerde()"></button>
+                <button class="colores" id="rojo" onclick="pulsarRojo()"></button>
+            </div>
+            <div id="inferior">
+                <button class="colores" id="amarillo" onclick="pulsarAmarillo()"></button>
+                <button class="colores" id="azul" onclick="pulsarAzul()"></button>
+            </div>
+        </div>
+    </div>
+
+    <div id="puntuacion">Puntos: 0</div>
+</body>
+</html>
