@@ -37,3 +37,8 @@ button {
     height: 100px;
     font-size: larger;
 }
+
+button:hover {
+    color: rgb(199, 199, 199);
+    border-color: rgb(199, 199, 199);
+}

@@ -3,4 +3,5 @@ document.getElementById('idiomas').addEventListener('change', function(){
     document.getElementById('rps').innerHTML = traducciones[idiomaSel].rps;
     document.getElementById('buscaminas').innerHTML = traducciones[idiomaSel].buscaminas;
     document.getElementById('simon').innerHTML = traducciones[idiomaSel].simon;
+    document.getElementById('story').innerHTML = traducciones[idiomaSel].story;
 });

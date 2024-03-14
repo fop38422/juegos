@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Storytelling</title>
     <link rel="stylesheet" href="story.css">
-    <script src="story.js"></script>
 </head>
 <body>
     <div id="titulo">
@@ -20,8 +19,10 @@
     </div>
 
     <div id="botonera">
-        <button id="b1" onclick="opcion(1)">Te comes al primero, una célula redondita y blanda</button>
-        <button id="b2" onclick="opcion(2)">Te comes la segunda, una célula poligonal y que parece dura</button>
+        <button onclick="elegirOpcion(1)">Te comes al primero, una célula redondita y blanda</button>
+        <button onclick="elegirOpcion(2)">Te comes la segunda, una célula poligonal y que parece dura</button>
     </div>
+
+    <script src="story.js"></script>
 </body>
 </html>
