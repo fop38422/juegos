@@ -1,0 +1,39 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    padding: 0%;
+}
+
+#titulo {
+    text-align: center;
+    background-color: rgb(45, 45, 45);
+    color: white;
+    margin: 0%;
+}
+
+#cajaTexto {
+    width: 99%;
+    height: 50%;
+    border: 5px solid white;
+}
+
+#texto {
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
+
+#botonera {
+    margin: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    width: 300px;
+    height: 100px;
+    font-size: larger;
+}
